@@ -1162,17 +1162,19 @@ NODE_CLASS_MAPPINGS = {
     "PrepImageForInsightFace_legacy_240214_6a411dc": PrepImageForInsightFace,
 }
 
+# 검색은 앞에 키만으로 가능함.
+# 현재 네이밍컨벤션은 "노드명_legacy_날짜_커밋해시"
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "IPAdapterModelLoader_legacy_240214_6a411dc": "Load IPAdapter Model(legacy-240214-6a411dc)",
-    "IPAdapterApply_legacy_240214_6a411dc": "Apply IPAdapter(legacy-240214-6a411dc)",
-    "IPAdapterTilesMasked_legacy_240214_6a411dc": "IPAdapter Masked Tiles (experimental)(legacy-240214-6a411dc)",
-    "IPAdapterApplyFaceID_legacy_240214_6a411dc": "Apply IPAdapter FaceID(legacy-240214-6a411dc)",
-    "IPAdapterApplyEncoded_legacy_240214_6a411dc": "Apply IPAdapter from Encoded(legacy-240214-6a411dc)",
-    "PrepImageForClipVision_legacy_240214_6a411dc": "Prepare Image For Clip Vision(legacy-240214-6a411dc)",
-    "IPAdapterEncoder_legacy_240214_6a411dc": "Encode IPAdapter Image(legacy-240214-6a411dc)",
-    "IPAdapterSaveEmbeds_legacy_240214_6a411dc": "Save IPAdapter Embeds(legacy-240214-6a411dc)",
-    "IPAdapterLoadEmbeds_legacy_240214_6a411dc": "Load IPAdapter Embeds(legacy-240214-6a411dc)",
-    "IPAdapterBatchEmbeds_legacy_240214_6a411dc": "IPAdapter Batch Embeds(legacy-240214-6a411dc)",
-    "InsightFaceLoader_legacy_240214_6a411dc": "Load InsightFace(legacy-240214-6a411dc)",
-    "PrepImageForInsightFace_legacy_240214_6a411dc": "Prepare Image For InsightFace(legacy-240214-6a411dc)",
+    "IPAdapterModelLoader_legacy_240214_6a411dc": "Load IPAdapter Model(legacy_240214_6a411dc)",
+    "IPAdapterApply_legacy_240214_6a411dc": "Apply IPAdapter(legacy_240214_6a411dc)",
+    "IPAdapterTilesMasked_legacy_240214_6a411dc": "IPAdapter Masked Tiles (experimental)(legacy_240214_6a411dc)",
+    "IPAdapterApplyFaceID_legacy_240214_6a411dc": "Apply IPAdapter FaceID(legacy_240214_6a411dc)",
+    "IPAdapterApplyEncoded_legacy_240214_6a411dc": "Apply IPAdapter from Encoded(legacy_240214_6a411dc)",
+    "PrepImageForClipVision_legacy_240214_6a411dc": "Prepare Image For Clip Vision(legacy_240214_6a411dc)",
+    "IPAdapterEncoder_legacy_240214_6a411dc": "Encode IPAdapter Image(legacy_240214_6a411dc)",
+    "IPAdapterSaveEmbeds_legacy_240214_6a411dc": "Save IPAdapter Embeds(legacy_240214_6a411dc)",
+    "IPAdapterLoadEmbeds_legacy_240214_6a411dc": "Load IPAdapter Embeds(legacy_240214_6a411dc)",
+    "IPAdapterBatchEmbeds_legacy_240214_6a411dc": "IPAdapter Batch Embeds(legacy_240214_6a411dc)",
+    "InsightFaceLoader_legacy_240214_6a411dc": "Load InsightFace(legacy_240214_6a411dc)",
+    "PrepImageForInsightFace_legacy_240214_6a411dc": "Prepare Image For InsightFace(legacy_240214_6a411dc)",
 }
